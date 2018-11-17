@@ -7,10 +7,16 @@ import javax.swing.*;
 
 public class Main extends JFrame {
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public Main() {
 		super("Verifica in laboratorio");
 		super.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 		
+		int __TODO__ = 0;
 		// TODO Inserire la size in accordo con il wireframe (valori approssimati)
 		super.setSize(__TODO__,__TODO__);
 		
@@ -21,7 +27,7 @@ public class Main extends JFrame {
 		// TODO Convertire lo StringBuilder in String
 		
 		// TODO Assegnare correttamente la stringa create a JLabel
-		super.add(new JLabel(__TODO__));
+		super.add(new JLabel());
 		super.setVisible(true);
 		 
 		System.out.println("Verifica Swing-GitHub");
